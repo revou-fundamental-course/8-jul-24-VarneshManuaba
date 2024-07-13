@@ -1,0 +1,70 @@
+/*ini css*/
+
+.main-title {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-content {
+    flex: 1;
+    padding: 12px;
+
+}
+
+.input-title {
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+form {
+    background-color: aliceblue;
+    padding: 12px;
+    border-radius: 8px;
+
+}
+
+.button {
+    height: 32px;
+    border-radius: 8px;
+
+}
+
+.submit {
+    background-color: azure;
+    border: black;
+
+}
+
+.reset {
+    background-color: white;
+    border: black;
+
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid wheat;
+    -webkit-transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid brown;
+
+}
+
+.result-section {
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: 12px;
+
+}

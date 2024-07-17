@@ -22,7 +22,7 @@
 }
 
 form {
-    background-color: aliceblue;
+    background-color: rgb(126, 255, 221);
     padding: 12px;
     border-radius: 8px;
 
@@ -34,14 +34,14 @@ form {
 
 }
 
-.submit {
-    background-color: azure;
+.button-submit {
+    background-color: rgb(255, 255, 255);
     border: black;
 
 }
 
-.reset {
-    background-color: white;
+.button-reset {
+    background-color: rgb(255, 255, 255);
     border: black;
 
 }
@@ -63,7 +63,7 @@ input[type=text]:focus {
 
 .result-section {
     text-align: center;
-    background-color: aliceblue;
+    background-color: rgb(126, 255, 221);
     border-radius: 8px;
     padding: 12px;
 

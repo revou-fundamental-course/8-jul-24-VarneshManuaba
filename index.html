@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title> document </title>
+        <title> Mini Project RevoU </title>
         <link rel="stylesheet" href="css/styles.css">
         </head>
+        <script src="/Js/main.js"></script>
+        <link rel="stylesheet" href="/Js/main.js">
 
             <body>
                 <!-- main title -->
@@ -16,7 +18,12 @@
                 <section class="main-content">
                     <!-- main article -->
                 <article> 
-                    <p> Lorem, ipsum dolor sit amete.</p>
+                    <h1> Keterangan Kalkulator </h1>
+                    <p> Body Mass Index (BMI) adalah metode hitung-hitungan mudah yang 
+                        dapat memberikan informasi dasar terhadap masalah berat badan Anda secara keseluruhan. 
+                        Angka ini bisa berperan sebagai tanda peringatan bahaya dan melindungi seseorang dari kematian 
+                        akibat penyakit kronis terkait obesitas. </p>
+                    <p> Yuk kita hitung dengan kalkulator BMI! </p>
                 </article>
 
                 <!-- form -->
@@ -24,24 +31,32 @@
                     <form> 
                     <div>
                         <div class="input-title"> </div>
-                        <input type="radio" id="sex selection-man"><label for="selection-man">laki-laki</label>
-                        <input type="radio" id="sex selection-woman"><label for="selection-woman">prempuan</label>
+                        <input type="radio" id="sex-selection-man"><label for="selection-man">laki-laki</label>
+                        <input type="radio" id="sex-selection-woman"><label for="selection-woman">prempuan</label>
                     </div>
                     <div>
-                        <label for="input berat badan">berat badan(kg)</label>
-                        <input type="number" id="input berat badan">
+                        <label for="input-berat-badan">berat badan(kg)</label>
+                        <br>
+                        <input type="number" id="input-berat-badan">
+                        <br>
                     </div>
                     <div>
                         <label for="input-usia">usia(th)</label>
+                        <br>
                         <input type="number" id="input-usia">
+                        <br>
+
                     </div>
                     <div>
                         <label for="input-tinggi-badan">tinggi badan (cm)</label>
+                        <br>
                         <input type="number" id="input-tinggi-badan">
+                        <br>
+
                     </div>
                     <div>
-                        <button class="button submit"> SUBMIT BMI </button>
-                        <button class="Button">RESET</button>
+                        <button class="button-submit"> SUBMIT BMI </button>
+                        <button class="button-reset">RESET</button>
                     </div>
                     </form>
                 </section>
@@ -49,11 +64,21 @@
                 <!-- form article -->
                 <section> 
                     <header> 
-                        <h1> keunggulan fitur </h1>
+                        <h1 style="font-weight: bold;";"> keunggulan fitur </h1>
                     </header>
 
                     <article>
-                        <h1>lorem...</h1>
+                        <h1>
+                            <br>
+1. Menghitung berat badan (Kg)
+<br>
+2. Menetukan kategori berat badan ideal atau tidak
+<br>
+3. Mempersiapkan program penurunan berat badan
+<br>
+<p style="font-weight: normal;"> Kalkulator ini hanya boleh digunakan oleh orang dewasa (wanita hamil atau ibu menyusui tidak boleh mengandalkan pembacaan BMI ini) dan tidak ada tindakan yang harus diambil berdasarkan nilainya selain berkonsultasi dengan orang yang memenuhi syarat seperti dokter </p>
+<p style="font-weight: normal;"> Kalkulator akan memberi anda gambaran tentang perbandingan berat badan anda dengan nilai nilai uman. Index Massa Tubuh (BMI) dihitung sebagai berat badan anda (Kg) dibagi dengan kuadrat tinggi badan anda (Cm) atau BMI-Kg/Cm²</p>
+</h1>
                     </article>
                 </section>
                 </section>
@@ -63,7 +88,7 @@
                     <!-- result article -->
                 <article>
                     <header>
-                        <h1> result </h1>
+                        <h1 style="font-weight: bold;"> Results ! </h1>
                     </header> 
 
                     <!-- result section -->
@@ -74,10 +99,33 @@
                     </section>
 
                     <!--result article-->
-                    <article></article>
+                    <article>
+                        <B> Hasil BMI diantara 23 dan 25</B>
+                        <p> Andan berada dalam kategori overweight atau berlebihan berat badan. </p>
+                        <p> Cara terbaik untuk menurunkan berat badan adalah dengan mengatur 
+                            kalori makanan yang dikonsumsi dan berolahraga teratur. 
+                            Jika BMI Anda berada dalam kategori ini maka Anda dianjurkan 
+                            untuk menurunkan berat badan hingga batas normal.</p>
+                    </article>
 
                     <!-- general information -->
-                    <section> </section>
+                    <section> 
+                        <button> Konsultasi ahli gizi </button>
+                        <button> Registrasi online ahli gizi </button>
+                        <p> BMI tidak sepunuhnya mewakili diagnosis menyeluruh dari 
+                            kesehatan tubuh dan resiko penyakit seseorang. Anda perlu 
+                            konsultasi lebih lanjut mengenai resiko dan kekhawatiran Anda 
+                            terkait berat badan Anda.
+                        </p>
+
+                        <form>
+                           <h1> Berberapa penyakit yang berasal dari kegemukan </h1> 
+                           <li> diabetes </li>
+                           <li> hipertensi </li>
+                           <li> sakit jantung </li>
+                           <li> osteoarthritis </li>
+                        </form>
+                    </section>
                 </article>
                 </section>
             </main>

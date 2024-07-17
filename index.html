@@ -55,8 +55,8 @@
 
                     </div>
                     <div>
-                        <button class="button-submit"> SUBMIT BMI </button>
-                        <button class="button-reset">RESET</button>
+                        <button class="button-submit" type="button" onclick="updateResult();"> SUBMIT BMI </button>
+                        <button class="button-reset" type="button">RESET</button>
                     </div>
                     </form>
                 </section>
@@ -84,7 +84,7 @@
                 </section>
 
                 <!-- right section -->
-                <section class="main-content">
+                <section class="main-content result-content" style="display: none;">
                     <!-- result article -->
                 <article>
                     <header>
@@ -94,7 +94,7 @@
                     <!-- result section -->
                     <section class="result-section"> 
                         <p> hasil result adalah: </p>
-                        <h2> 24.7 </h2>
+                        <h2 id="bmi-result"> 24.7 </h2>
                         <p> anda memiliki berat badan berlebih </p>
                     </section>
 
